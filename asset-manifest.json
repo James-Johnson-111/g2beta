@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/g2beta/static/css/main.7888ce54.chunk.css",
+    "main.js": "/g2beta/static/js/main.f52e20c7.chunk.js",
+    "main.js.map": "/g2beta/static/js/main.f52e20c7.chunk.js.map",
+    "runtime-main.js": "/g2beta/static/js/runtime-main.e0be37a6.js",
+    "runtime-main.js.map": "/g2beta/static/js/runtime-main.e0be37a6.js.map",
+    "static/js/2.a093223f.chunk.js": "/g2beta/static/js/2.a093223f.chunk.js",
+    "static/js/2.a093223f.chunk.js.map": "/g2beta/static/js/2.a093223f.chunk.js.map",
+    "static/js/3.d0afdeda.chunk.js": "/g2beta/static/js/3.d0afdeda.chunk.js",
+    "static/js/3.d0afdeda.chunk.js.map": "/g2beta/static/js/3.d0afdeda.chunk.js.map",
+    "index.html": "/g2beta/index.html",
+    "static/css/main.7888ce54.chunk.css.map": "/g2beta/static/css/main.7888ce54.chunk.css.map",
+    "static/js/2.a093223f.chunk.js.LICENSE.txt": "/g2beta/static/js/2.a093223f.chunk.js.LICENSE.txt",
+    "static/media/fonts.css": "/g2beta/static/media/Roboto-Bold.4f39c579.ttf",
+    "static/media/logo.6ce24c58.svg": "/g2beta/static/media/logo.6ce24c58.svg",
+    "static/media/logo.d43f3513.PNG": "/g2beta/static/media/logo.d43f3513.PNG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e0be37a6.js",
+    "static/js/2.a093223f.chunk.js",
+    "static/css/main.7888ce54.chunk.css",
+    "static/js/main.f52e20c7.chunk.js"
+  ]
+}
