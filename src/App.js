@@ -74,7 +74,7 @@ class App extends Component {
       <TopBar />
       <Slider>
         <Switch>
-          <Route exact path="/" component={Welcome} />
+          <Route exact path="/g2beta" component={Welcome} />
           <Route path="/getmentored" component={Login} />
           <Route path="/becomementor" component={ this.props.auth ? Dashboard : Login } />
           <Route path="/login" component={Login} />
