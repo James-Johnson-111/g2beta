@@ -22,6 +22,7 @@ import { Redirect, Route, Switch } from 'react-router-dom';
 class App extends Component {
 
   componentDidMount() {
+    console.log(this.props.location);
     if(sessionStorage.getItem('user_email')) {
       this.props.onUserLogin();
       axios.get('/allusers')
