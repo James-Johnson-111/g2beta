@@ -1,0 +1,25 @@
+.MyMessages {
+    position: relative;
+}
+
+.MyMessages .mentor_circle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 100px;
+    background-color: #1c9cea;
+    color: #fff;
+    border: 1px solid #fff;
+    display: grid;
+    align-items: center;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.MyMessages .messages_box {
+    padding-top: 150px;
+}

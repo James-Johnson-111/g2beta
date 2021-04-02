@@ -1,0 +1,7 @@
+.ProfileSetup a.active, .ProfileSetup a:active {
+    border-bottom: 3px solid red;
+}
+
+.ProfileSetup a:hover {
+    text-decoration: none;
+}

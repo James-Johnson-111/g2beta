@@ -1,0 +1,49 @@
+.StepOne {
+    font-family: Raleway;
+    color: #fff;
+    position: relative;
+}
+
+.beforeClick {
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    border: 2px solid #fff;
+    margin: 3px;
+    padding: 1px 10px;
+    font-size: 12px;
+}
+
+.beforeClick:focus {
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    border: 2px solid #fff;
+    margin: 3px;
+    padding: 1px 10px;
+    font-size: 12px;
+    outline: none;
+}
+
+.afterClick {
+    background-color: #0250a2;
+    color: #fff;
+    box-shadow: none;
+    border: 2px solid #0250a2;
+    margin: 3px;
+    padding: 1px 10px;
+    font-size: 12px;
+    border-radius: 30px;
+}
+
+.afterClick:focus {
+    background-color: #0250a2;
+    color: #fff;
+    box-shadow: none;
+    border: 2px solid #0250a2;
+    outline: none;
+}

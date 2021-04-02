@@ -1,0 +1,8 @@
+.HomeDashboard .btn {
+    color: #fff;
+}
+
+.HomeDashboard .btn:hover {
+    background-color: #fff;
+    color: #000;
+}

@@ -1,0 +1,23 @@
+.SearchMentors {
+    background-color: rgb(0, 40, 70, .5);
+    width: 80%;
+    margin-left: 10%;
+}
+
+/* .SearchMentors .form-control {
+    background: none;
+    border: 1px solid #fff;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    color: #fff;
+}
+.SearchMentors .form-control::placeholder {
+    color: rgb(255, 255, 255, .7);
+}
+
+.SearchMentors .form-control:focus {
+    box-shadow: none;
+} */

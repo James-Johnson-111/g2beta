@@ -1,0 +1,21 @@
+.daashboardcard_items {
+    position: relative;
+}
+.daashboardcard_items a {
+    color: #000;
+}
+.daashboardcard_items .dashboard-circle {
+    position: absolute;
+    top: calc(0vh - 50px);
+    left: calc(50% - 50px);
+    width: 100px;
+    height: 100px;
+    border: 1px solid #000;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    display: grid;
+    align-items: center;
+}

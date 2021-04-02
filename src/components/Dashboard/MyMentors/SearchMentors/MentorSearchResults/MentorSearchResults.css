@@ -1,0 +1,24 @@
+.MentorSearchResults {
+    background-color: rgb(0, 40, 70, .5);
+    width: 50%;
+    margin-left: 25%;
+    position: relative;
+}
+
+.goBackBtn {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    font-size: 20px;
+}
+
+.MentorSearchResults input[type="checkbox"] {
+    height: 25px;
+    width: 25px;
+}
+
+.searchMentorsResultRows {
+    height: 45vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+}

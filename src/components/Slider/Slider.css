@@ -1,0 +1,8 @@
+.slider {
+    width: 100%;
+    background-image: linear-gradient(rgb(2, 38, 68, .7), rgb(2, 38, 68, .7)), url('https://image.freepik.com/free-photo/luxury-business-meeting-working-room-executive-office_105762-1734.jpg');
+    background-size: 100% 100%;
+    position: relative;
+    text-align: center;
+    padding-top: 10px;
+}

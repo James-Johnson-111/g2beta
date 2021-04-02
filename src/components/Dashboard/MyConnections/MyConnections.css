@@ -1,0 +1,37 @@
+.MyConnections {
+    position: relative;
+}
+
+.MyConnections a {
+    color: #fff;
+}
+
+/* .MyConnections {
+    padding: 80px;
+} */
+
+.MyConnections a:hover {
+    text-decoration: none;
+}
+
+.MyConnections a.active, .MyConnections a:active {
+    border-bottom: 3px solid red;
+}
+
+.MyConnections .mentor_circle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 100px;
+    background-color: #146fdb;
+    color: #fff;
+    border: 1px solid #fff;
+    display: grid;
+    align-items: center;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}

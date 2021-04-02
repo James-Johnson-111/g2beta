@@ -1,0 +1,23 @@
+.Modal {
+    position: fixed;
+    top: calc(50vh - 25vh);
+    left: calc(50% - 15%);
+    width: 30%;
+    height: min-content;
+    background-color: #fff;
+    box-shadow: 0 0 50px lightgrey;
+    z-index: 999;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+
+.Modal .form-control {
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+}
