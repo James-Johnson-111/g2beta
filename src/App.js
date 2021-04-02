@@ -76,16 +76,15 @@ class App extends Component {
       <Slider>
         <Switch>
           <Route exact path="/" component={Welcome} />
-          <Route path="/getmentored" component={Login} />
-          <Route path="/becomementor" component={ this.props.auth ? Dashboard : Login } />
-          <Route path="/login" component={Login} />
+          <Route exact path="/getmentored" component={Login} />
+          <Route exact path="/becomementor" component={ this.props.auth ? Dashboard : Login } />
+          <Route exact path="/login" component={Login} />
           <Route exact path="/profileoptions" component={Profilebtns} />
           <Route exact path="/signin" component={SigninForm} />
           <Route exact path="/profilesetup" component={ this.props.auth ? ProfileSetup : Login} />
           <Route exact path="/step2/:id" component={ this.props.auth ? ProfileSetup : Login} />
           <Route exact path="/profilesettings" component={ this.props.auth ? ProfileSetup : Login} />
           
-          {/* For Dashboard */}
           <Route exact path="/dashboard" component={ this.props.auth ? Dashboard : Login } />
           <Route exact path="/mymentor" component={ this.props.auth ? Dashboard : Login } />
           <Route exact path="/mymentor/search" component={ this.props.auth ? Dashboard : Login } />
@@ -93,17 +92,13 @@ class App extends Component {
           <Route exact path="/mymentor/requestmentor" component={ this.props.auth ? Dashboard : Login } />
           <Route exact path="/mymentor/communicatewithmentor" component={ this.props.auth ? Dashboard : Login } />
 
-          {/* For My Messages Link */}
           <Route exact path="/mymessages" component={ this.props.auth ? Dashboard : Login } />
           <Route exact path="/personinbox" component={ this.props.auth ? Dashboard : Login } />
 
-          {/* For My Invitaions Link */}
           <Route exact path="/myinvitaions" component={ this.props.auth ? Dashboard : Login } />
           
-          {/* For My Connections Link */}
           <Route exact path="/myconnections" component={ this.props.auth ? Dashboard : Login } />
             
-          {/* For My Mentees Link */}
           <Route exact path="/mymentees" component={ this.props.auth ? Dashboard : Login } />
           <Redirect to="/" />
         </Switch>
