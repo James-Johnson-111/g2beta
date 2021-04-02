@@ -75,7 +75,7 @@ class App extends Component {
       <TopBar />
       <Slider>
         <Switch>
-          <Route exact path="/https://James-Johnson-111.github.io/g2beta" component={Welcome} />
+          <Route exact path="/" component={Welcome} />
           <Route path="/getmentored" component={Login} />
           <Route path="/becomementor" component={ this.props.auth ? Dashboard : Login } />
           <Route path="/login" component={Login} />
@@ -105,7 +105,7 @@ class App extends Component {
             
           {/* For My Mentees Link */}
           <Route exact path="/mymentees" component={ this.props.auth ? Dashboard : Login } />
-          <Route component={Welcome} />
+          <Redirect to="/" />
         </Switch>
       </Slider>
       <Route exact path="/dashboard" component={ this.props.auth ? DashboardItems : null } />
