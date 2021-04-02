@@ -104,6 +104,7 @@ class App extends Component {
             
           {/* For My Mentees Link */}
           <Route exact path="/mymentees" component={ this.props.auth ? Dashboard : Login } />
+          <Route component={Welcome} />
         </Switch>
       </Slider>
       <Route exact path="/dashboard" component={ this.props.auth ? DashboardItems : null } />
